@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(91, 180, 168);
+}
+
+header h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+#nav {
+    background-color: darkgray;
+    overflow: hidden;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+main section h3 {
+    color: brown;
+    padding: 10px;
+}
+
+@media all and (max-width: 600px) {
+    #nav a {
+        padding: 5px;
+    }
+}

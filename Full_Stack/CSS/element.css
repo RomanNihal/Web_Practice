@@ -1,0 +1,16 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(7, 7, 73);
+}
+
+span, a {
+    color: rgb(95, 95, 185);
+    text-decoration: none;
+}
+
+li {
+    list-style-type: circle;
+}

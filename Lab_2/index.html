@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul type="square">
+        <li>Anime
+            <ol start="5">
+                <li>One piece</li>
+                <li>Naruto</li>
+                <li>Attack on titan</li>
+                <li>Demon slayer</li>
+            </ol>
+        </li>
+        <li>Movie
+            <ol reversed>
+                <li>God father</li>
+                <li>Avengers</li>
+                <li>Everything everywhere all at once</li>
+            </ol>
+        </li>
+    </ul>
+
+    <dl>
+        <dt>CSE 302</dt>
+        <dd>- Web Programming Lab</dd>
+    </dl>
+
+    <table border="1" height="100" width="100" cellpadding="10" cellspacing="5" align="center">
+        <caption>Student Information</caption>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Course</th>
+        </tr>
+        <tr align="center">
+            <td>212002001</td>
+            <td>Mr. A</td>
+            <td>CSE</td>
+            <td>CSE 302</td>
+        </tr>
+    </table>
+
+    <table border="1" height="100" width="300" cellpadding="5" cellspacing="5" align="center">
+        <caption><h4>Student Information of CSE Department</h4></caption>
+        <tr>
+            <th colspan="4">CSE Department</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Student ID</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Program</th>
+        </tr>
+        <tr align="center">
+            <td>Day</td>
+            <td>Evening</td>
+        </tr>
+        <tr align="center">
+            <td>211002001</td>
+            <td>Ms. P</td>
+            <td>211D1</td>
+            <td>211EA</td>
+        </tr>
+    </table>
+
+    <form action="#">
+        <input type="image" src="" height="150" width="150">
+        <br><br>
+        <label for="A">Student Name:</label>
+        <input type="text" id="A" size="20" value="Tanpia Tasnim">
+        <br><br>
+        <label for="B">Student ID:</label>
+        <input type="number" id="B" placeholder="Enter your ID" required>
+        <br><br>
+        <label for="C">Email:</label>
+        <input type="email" id="C" placeholder="Enter your email" required>
+        <br><br>
+        <label for="D">Username:</label>
+        <input type="text" id="D" size="20" maxlength="15" placeholder="Enter Username" required>
+        <br><br>
+        <label for="E">Password:</label>
+        <input type="password" id="E" size="20" maxlength="8" placeholder="Enter Password" required>
+        <br><br>
+        <label for="F">Date of Birth:</label>
+        <input type="date" id="F" size="20" placeholder="Enter Date of Birth">
+        <br><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="M">Male <br>
+        <input type="radio" name="gender" value="F">Female <br>
+        Language: <br>
+        <input type="checkbox" name="language" value="b">Bengali <br>
+        <input type="checkbox" name="language" value="e">English <br>
+        Country: <br>
+        <select name="Country">
+            <option>(Please select your Country)</option>
+            <option value="B">Bangladesh</option>
+            <option value="I">India</option>
+        </select>
+        <br><br>
+        <label for="G">Address:</label><br>
+        <textarea id="G" cols="30" rows="5" placeholder="Enter your present address"></textarea>
+        <br><br>
+        Attach your Documents: <br>
+        <input type="file"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+
+    <table border="1" align="center">
+        <caption align="Center">
+            <h3>Class Routine</h3>
+            <h5>Teacher Name: Tanpia Tasnim</h5>
+            <h6>Department of Computer Science & Engineering</h6>
+            <h4>Green University of Bangladesh</h4>
+        </caption>       
+    </table>
+</body>
+</html>

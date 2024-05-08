@@ -1,0 +1,20 @@
+.anime {
+    color: brown;
+}
+
+li.anime {
+    text-decoration: line-through;
+}
+
+li em {
+    color: crimson;
+}
+
+h1+p {
+    color: crimson;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: line-through;
+}

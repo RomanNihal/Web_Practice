@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(83, 83, 133);
+}
+
+header h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#palindrome {
+    width: 100%;
+    border: 1px solid rgb(62, 66, 65);
+    text-align: center;
+    height: 30px;
+}
+
+#check {
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 10px;
+    background-color: rgba(0, 255, 255, 0.363);
+}

@@ -1,0 +1,11 @@
+li[class] {
+    color: rgb(26, 124, 41);
+}
+
+li[class="a"] {
+    text-decoration: line-through;
+}
+
+li[class~="a"] {
+    background-color: burlywood;
+}

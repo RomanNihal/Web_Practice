@@ -11,7 +11,7 @@ function IsPalindrome(string) {
     }
     var inputString = prompt("Enter a string: ");
     if (IsPalindrome(inputString)) {
-    console.log("${inputString} is a palindrome.");
+    console.log("Palindrome.");
     } else {
-    console.log("${inputString} is not a palindrome.");
+    console.log("Not palindrome.");
 }
